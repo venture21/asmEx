@@ -1,6 +1,6 @@
 # Makefile
-OBJECTS = load01.o
-TARGET = load01
+OBJECTS = branch01.o
+TARGET = branch01
 
 SRCS = $(OBJECTS:.o=.s)
 
