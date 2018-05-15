@@ -22,9 +22,6 @@ return: .word 0
  
 .text
 
-
-
-
  
 .global main
 main:
@@ -35,6 +32,7 @@ main:
     mov r1, #5
     mov r2, #6
     mov r3, #7 
+    sdiv r4, r3, r1
     stmfd sp!,{r1-r3}
     bl printf                        /* call to printf */
     ldmia sp!,{r1-r3}
