@@ -1,6 +1,6 @@
 # Makefile
-OBJECTS = branch01.o
-TARGET = branch01
+OBJECTS = printf01.o
+TARGET = printf01
 
 SRCS = $(OBJECTS:.o=.s)
 
